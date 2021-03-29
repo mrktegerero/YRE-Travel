@@ -1,0 +1,23 @@
+[
+    {
+        "img": "../assets/images/bali2.jpg",
+        "alt": "Bali, Indonesia",
+        "name": "Bali, Indonesia",
+        "amount": "$5.561/pax",
+        "def": "Mangan tahu aci campur tempe goreng kaya e mantep ki bro. Skuy gasken tuku."
+    },
+    {
+        "img": "../assets/images/paris.jpg",
+        "alt": "Paris, France",
+        "name": "Paris, France",
+        "amount": "$7.561/pax",
+        "def": "Mangan tahu aci campur tempe goreng kaya e mantep ki bro. Skuy gasken tuku."
+    },
+    {
+        "img": "../assets/images/tokyo.jpg",
+        "alt": "Tokyo, Japan",
+        "name": "Tokyo, Japan",
+        "amount": "$4.561/pax",
+        "def": "Mangan tahu aci campur tempe goreng kaya e mantep ki bro. Skuy gasken tuku."
+    }
+]
