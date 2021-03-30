@@ -1,6 +1,5 @@
 import React, { useEffect } from 'react'
 import styled from 'styled-components'
-import {Link} from 'gatsby'
 import Malaysia1 from '../../assets/images/malaysia1.jpg'
 import Singapore from '../../assets/images/singapore.jpg'
 import Malaysia2 from '../../assets/images/malaysia2.jpg'

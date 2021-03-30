@@ -2,21 +2,16 @@ import { Link } from 'gatsby'
 import React from 'react'
 import styled from 'styled-components'
 import { FaGoogle, FaInstagram, FaLinkedin, FaTwitter, FaYoutube } from 'react-icons/fa'
-import {animateScroll as scroll} from 'react-scroll'
 
 const Footer = () => {
 
-
-const toggleHome = () => {
-  scroll.scrollToTop()
-}
     return (
         <ContainerFooter>
         <FooterContainer>
                 <FooterLinksWrapperLeft>
                 <FooterLinksWrapper2>
                     <FooterDesc>
-                        <h1 onClick={toggleHome} to="/">yre travel <span>.</span></h1>
+                        <h1>yre travel <span>.</span></h1>
                         <p>Concert with amazing and wonderful DJ arround the world.</p>
                         <FooterSocial><FaGoogle/><FaTwitter/><FaInstagram/><FaLinkedin/><FaYoutube/></FooterSocial>
                     </FooterDesc>
@@ -145,6 +140,10 @@ display: flex;
 max-width: 100%;
 justify-content: space-between;
 margin: 1.6rem 0 2rem 0;
+
+&:hover{
+    cursor: pointer;
+}
 
 `
 
